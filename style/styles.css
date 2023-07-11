@@ -1,4 +1,9 @@
-/* Main styles all design */
+/* common sharred design */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 .main {
     font-family: 'Lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
@@ -9,6 +14,7 @@
     padding: 20px 43px;
     border-radius: 8px;
     background: #E55473;
+    border: 0px;
 }
 
 .primary-button {}
@@ -47,7 +53,6 @@
 
 #banner-button {
     margin: 32px 0px 0px 240px;
-    background-color: none;
     color: #FFF;
     font-family: Lato;
     font-size: 20px;
@@ -58,4 +63,60 @@
 .banner-image {
     size: 50%;
     padding: 50px 220px 0px 0px;
+}
+
+.featured-text {
+    padding: 178px 0px 24px 0px;
+}
+
+#feature-main-title {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding: 20px;
+}
+
+#feature-sub {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 0px 663px 48px 663px;
+}
+
+.featured-box {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    gap: 149px;
+
+}
+
+.flower-details {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+    padding: 32px;
+
+}
+
+.special-box {
+    width: 1440px;
+    height: 320px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    margin: 100px 240px;
 }
