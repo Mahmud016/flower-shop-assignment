@@ -11,6 +11,7 @@
 }
 
 .primary-button {
+    color: #FFF;
     padding: 20px 43px;
     border-radius: 8px;
     background: #E55473;
@@ -119,4 +120,178 @@
     border-radius: 8px;
     background: rgba(39, 39, 39, 0.05);
     margin: 100px 240px;
+}
+
+/* <!-- Deal section  --> */
+
+.deal-discription {
+    box-sizing: width: 1922px;
+    height: 620px;
+    flex-shrink: 0;
+    ;
+    /* padding-top: 230px; */
+    /* padding-left: 395px; */
+    /* padding-right: 933px; */
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+
+}
+
+.deal-title {
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.deal-subtitle {
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+
+}
+
+#deal-btn {}
+
+/* <!-- Instagram section --> */
+.instagram {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#insta-title {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding-top: 128px;
+}
+
+#insta-details {
+    display: flex;
+    text-align: center;
+    width: 594px;
+    flex-direction: column;
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    padding: 24px 633px;
+
+}
+
+.insta-img {
+    padding: 0px 240px;
+
+}
+
+/* <!-- Get The Latest Deals --> */
+.deal-signup {
+    width: 1440px;
+    height: 449px;
+    margin: 128px 240px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background-image: url("../FlowerAsset/rectangle9.png");
+    text-align: center;
+
+}
+
+#latest-deal-title {
+    padding: 122px 533px 5px 533px;
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+#latest-deal-sub-title {
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+#email {
+    width: 600px;
+    height: 64px;
+    border-radius: 8px;
+    background: #FFF;
+    border: 0px;
+    margin-top: 48px;
+    
+}
+
+/* margin: 240px;
+    text-align: center;
+} */
+
+/* .latest-deals{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-image: url("rectangle9"); */
+
+/* footer section */
+footer {
+    width: 1922px;
+    height: 449px;
+    background: #111010;
+    margin-top: 128px;
+
+}
+
+#f-title {
+    color: #E55473;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding: 128px 832px 0px 832px;
+
+
+}
+
+#white {
+    color: aliceblue;
+}
+
+#f-discription {
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    padding-top: 24px;
+    padding-inline: 649px;
+
+}
+
+.last {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 20px;
 }
