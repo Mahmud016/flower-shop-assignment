@@ -1,0 +1,61 @@
+/* Main styles all design */
+.main {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.primary-button {
+    padding: 20px 43px;
+    border-radius: 8px;
+    background: #E55473;
+}
+
+.primary-button {}
+
+/* header section design */
+/* banner section */
+.banner-container {
+    display: flex;
+    background-color: rgba(229, 84, 115, 0.10);
+
+}
+
+.title-container {}
+
+.main-title {
+    color: #272727;
+    font-family: Lato;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding: 197px 97px 0px 240px;
+    margin-bottom: 32px;
+}
+
+.sub-title {
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 0px 50px 0px 240px;
+
+}
+
+#banner-button {
+    margin: 32px 0px 0px 240px;
+    background-color: none;
+    color: #FFF;
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.banner-image {
+    size: 50%;
+    padding: 50px 220px 0px 0px;
+}
