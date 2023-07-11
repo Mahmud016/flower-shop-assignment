@@ -219,7 +219,7 @@
     margin: 128px 240px;
     flex-shrink: 0;
     border-radius: 8px;
-    background-image: url("../FlowerAsset/rectangle9.png");
+    background-image: url("../flowerasset/rectangle9.png");
     text-align: center;
 
 }
@@ -248,7 +248,6 @@
     width: 600px;
     height: 64px;
     border-radius: 8px;
-    background: #FFF;
     border: 0px;
     margin-top: 48px;
 
